@@ -17,7 +17,7 @@ export const fetchAd = async ({ unit }) => {
     unit: unit,
     uid: "asdasdasd",
     pf: "web",
-    lcl: "ko_	KR",
+    lcl: "ko_KR",
   };
   const response = await getRequest().get("/request", { params });
 
