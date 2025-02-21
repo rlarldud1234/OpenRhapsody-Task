@@ -12,14 +12,13 @@ const getRequest = () => {
   return request;
 };
 
-export const fetchAd = async () => {
+export const fetchAd = async ({ unit }) => {
   const params = {
-    unit: "PUBLIC_TEST_UNIT_ID_375_80",
+    unit: unit,
     uid: "asdasdasd",
     pf: "web",
     lcl: "ko_	KR",
   };
-
   const response = await getRequest().get("/request", { params });
 
   return response.data;

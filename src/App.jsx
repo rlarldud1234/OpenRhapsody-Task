@@ -5,7 +5,7 @@ function App() {
   const [advertisment, setAdvertisment] = useState();
 
   useEffect(() => {
-    fetchAd()
+    fetchAd("PUBLIC_TEST_UNIT_ID_375_80")
       .then((response) => {
         const res = response;
 
