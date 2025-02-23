@@ -5,9 +5,6 @@ describe("Fetch Ad Test", () => {
   let response;
   const params = {
     unit: "PUBLIC_TEST_UNIT_ID_375_80",
-    uid: "asdasdasd",
-    pf: "web",
-    lcl: "ko_	KR",
   };
 
   beforeEach(async () => {
